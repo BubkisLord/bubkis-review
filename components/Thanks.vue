@@ -1,14 +1,14 @@
 <script>
 export default {
   data: () => ({
-    joke: '',
+    thanks: '',
   }),
   async mounted() {
-    this.joke = await fetch('/api/thanksmessage').then((res) => res.json())
+    this.thanks = await fetch('/api/thanks.js').then((res) => res.json())
   },
 }
 </script>
 
 <template>
-  <p>{{ thanksmessage }}</p>
+  <p>{{ thanks }}</p>
 </template>
