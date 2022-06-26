@@ -20,6 +20,7 @@
       <label for="feedback">What is your feedback?</label>
       <textarea id="feedback" wrap="soft" name="feedback" required></textarea>
       <button type="submit">Submit</button>
+      <div data-netlify-recaptcha="true"></div>
     </form>
   </div>
 </template>
@@ -40,7 +41,7 @@ button {
 }
 
 button {
-  background-color: teal;
+  background-color: purple;
   border: 1px solid black;
   color: white;
   width: 50%;
