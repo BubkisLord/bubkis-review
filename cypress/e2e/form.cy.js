@@ -2,7 +2,7 @@ describe('Testing form', () => {
 
   const name = 'Testing'
   const email = 'testing@testing.com'
-  const feedback = 'Testing form using Cypress'
+  const feedback = 'Test form'
 
   beforeEach(() => {
     cy.visit('/')
@@ -12,14 +12,14 @@ describe('Testing form', () => {
     cy.get('[type="email"]').type('not_an_email')
     cy.get('[type="submit"]').click()
     cy.get('[type="email"]').then(($input) => {
-      expect($input[0].validationMessage).to.eq('Please include an \'@\' in the email address. \'not_an_email\' is missing an \'@\'.')
+      expect($input[0].validationMessage).to.eq('Unfortunately, there is no \'@\' in the email address. Put in an actual email please!')
     })
   })
 
   it('check for validation message for no email input', () => {
     cy.get('[type="submit"]').click()
     cy.get('[type="email"]').then(($input) => {
-      expect($input[0].validationMessage).to.eq('Please fill out this field.')
+      expect($input[0].validationMessage).to.eq('You have to fill this bit out.')
     })
   })
 
@@ -27,7 +27,7 @@ describe('Testing form', () => {
     cy.get('[type="email"]').type(email)
     cy.get('[type="submit"]').click()
     cy.get('#feedback').then(($input) => {
-      expect($input[0].validationMessage).to.eq('Please fill out this field.')
+      expect($input[0].validationMessage).to.eq('You have to fill this bit out.')
     })
   })
 
