@@ -7,6 +7,7 @@
       </p>
     </div>
     <FeedbackForm />
+    <Thanks />
   </main>
 </template>
 
