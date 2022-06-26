@@ -1,5 +1,5 @@
 // Jokes provided from the lovely folks at https://icanhazdadjoke.com
-import jokes from './data/jokes.json'
+import thanksmessage from './data/thanks.json'
 
 export const handler = async () => {
   // Generates a random index based on the length of the jokes array
@@ -10,6 +10,6 @@ export const handler = async () => {
   // Other properties such as headers or body can also be included.
   return {
     statusCode: 200,
-    body: JSON.stringify(randomJoke),
+    body: JSON.stringify(randomthanks),
   }
 }
