@@ -1,16 +1,13 @@
 {
-  "name": "nuxt-toolbox",
+  "name": "Bubkis Games Review",
   "version": "1.0.0",
-  "author": "Netlify Inc",
+  "author": "Bubkis Games",
   "contributors": [
-    "Tara Manicsic",
-    "Prince Wilson",
-    "Ben Hong",
-    "Charlie Gerard"
+    "BubkisLord"
   ],
-  "homepage": "https://github.com/netlify-templates/nuxt-toolbox",
+  "homepage": "https://bubkis.me",
   "bugs": {
-    "url": "https://github.com/netlify-templates/nuxt-toolbox/issues"
+    "url": "https://bubkis.me/issues"
   },
   "private": true,
   "scripts": {
