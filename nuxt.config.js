@@ -4,17 +4,17 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-toolbox',
+    title: 'Bubkis Games Review',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Submit review to Bubkis Games.' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://i.ibb.co/Hdx6Dz5/7ce5e9eb-ff22-4d0f-a954-a1c09747a9f6.png' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
