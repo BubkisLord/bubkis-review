@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "core-js": "^3.19.3",
-    "cypress": "^10.0.3",
+    "cypress": "^10.11.0",
     "nuxt": "^2.16.0",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
